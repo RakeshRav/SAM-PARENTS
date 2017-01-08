@@ -1,4 +1,4 @@
-package com.samparents;
+package com.samparents.activity;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -8,6 +8,7 @@ import android.util.Log;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
+import com.samparents.R;
 import com.samparents.adapters.AttendanceListAdapter;
 
 import rmn.androidscreenlibrary.ASSL;

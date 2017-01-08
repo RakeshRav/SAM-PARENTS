@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.samparents.activity.TestActivity">
+
+    <include layout="@layout/toolbar" />
+
+    <com.samparents.utils.SlidingTabLayout
+        android:id="@+id/viewPagerTabs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#3b5998" />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="visible" />
+
+</LinearLayout>
