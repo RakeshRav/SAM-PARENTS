@@ -36,9 +36,9 @@
 
     <color name="normal_present_button">#009688</color>
 
-    <!--<color name="background_color">#dad5d5</color>-->
+    <color name="background_color">#dad5d5</color>
 
-    <color name="background_color">#e4dede</color>
+    <!--<color name="background_color">#e4dede</color>-->
     <color name="background_color_navdrawer">#007888</color>
 
     <color name="orange_dark">#E64A19</color>

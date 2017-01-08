@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/linearLayoutMainToolBar"
+    android:layout_width="match_parent"
+    android:layout_height="100px"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100px"
+        android:background="@color/primary">
+
+        <RelativeLayout
+            android:id="@+id/relativeLayoutMenu"
+            android:layout_width="100px"
+            android:layout_height="100px"
+            android:layout_alignParentLeft="true">
+
+            <ImageView
+                android:id="@+id/imageViewToolbaar"
+                android:layout_width="50px"
+                android:layout_height="50px"
+                android:layout_centerInParent="true"
+                android:background="@drawable/icon_menu_selector" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/textViewActionTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="130px"
+            android:text="MORE"
+            android:textColor="#fff"
+            android:textAllCaps="true"
+            android:textSize="32px" />
+
+        <TextView
+            android:id="@+id/textViewActionSave"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="32px"
+            android:text="SAVE"
+            android:textColor="#fff"
+            android:textAllCaps="true"
+            android:visibility="gone"
+            android:layout_alignParentRight="true"
+            android:textSize="32px" />
+
+    </RelativeLayout>
+</LinearLayout>
