@@ -12,6 +12,9 @@
         <activity android:name=".activity.AttendanceActivity">
         </activity>
         <activity android:name=".activity.TestActivity">
+
+        </activity>
+        <activity android:name=".activity.RemarksActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

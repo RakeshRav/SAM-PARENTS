@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="8px"
+    android:id="@+id/linearlayoutRemarks"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Date : 01-01-2016"
+        android:textSize="29px"
+        android:textStyle="bold"
+        android:layout_margin="8px"
+        />
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardElevation="8px"
+        android:layout_marginLeft="8px"
+        android:layout_marginRight="8px"
+        android:layout_marginBottom="8px"
+        android:layout_marginTop="4px"
+        android:background="@color/calendar_past_days_bg">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/calendar_past_days_bg">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Remarks Remarks Remarks Remarks Remarks /nRemarks Remarks Remarks Remarks Remarks Remarks Remarks Remarks Remarks /nRemarks Remarks Remarks Remarks "
+                android:textSize="29px"
+                android:layout_margin="8px"
+                android:maxLines="5"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="By Rohan Malik"
+                android:layout_marginTop="6px"
+                android:gravity="right"
+                android:layout_marginRight="8px"
+                android:layout_marginBottom="6px"
+                android:textStyle="bold"
+                android:textSize="29px"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@color/primary"
+                android:elevation="4px"
+                android:text="View Full Remarks"
+                android:textAllCaps="true"
+                android:padding="12px"
+                android:gravity="center"
+                android:textColor="@android:color/white"
+                android:textSize="29px" />
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+</LinearLayout>
